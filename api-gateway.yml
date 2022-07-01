@@ -1,10 +1,1 @@
 server.port=8080
-my:
-   greeting: Hello World from api-gateway
-   list:
-       values: One, Two, Three
-  
-db:
-   connection: connection-string-here-from-config-server
-   host: 127.0.0.1
-   port: 1200
