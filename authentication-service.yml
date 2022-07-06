@@ -1,0 +1,14 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: AUTHENTICATION-SERVICE
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+  service-url:
+    defaultZone: http://localhost8761/eureka
+ 
