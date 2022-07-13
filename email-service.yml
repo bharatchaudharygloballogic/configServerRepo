@@ -15,3 +15,8 @@ eureka:
     fetch-registry: true
   service-url:
     defaultZone: http://localhost8761/eureka
+
+
+service:
+  emailId: sportsarenaemailservice@gmail.com
+  password: hrcrvkrrowwusfcz
