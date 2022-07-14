@@ -1,16 +1,17 @@
-spring:
-  data:
-   mongodb:
-    host: localhost
-    port: 27017
-    database: players
-  datasource:
-   driver-name: mongodb.jdbc.MongoDriver
- server:
-  port: 8081
-eureka:
-  client:
-    register-with-eureka: true
+--- 
+eureka: 
+  client: 
     fetch-registry: true
-  service-url:
-    defaultZone: http://localhost8761/eureka
+    register-with-eureka: true
+  service-url: 
+    defaultZone: "http://localhost8761/eureka"
+server: 
+  port: 8081
+spring: 
+  data: 
+    mongodb: 
+      database: players
+      host: localhost
+      port: 27017
+  datasource: 
+    driver-name: mongodb.jdbc.MongoDriver
