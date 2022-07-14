@@ -8,6 +8,12 @@ spring:
       port: 27017
       database: Email
   mail:
+    smtp:
+      host: smtp.gmail.com
+      port: 465
+      ssl:
+        enable: true
+      auth: true
     id: sportsarenaemailservice@gmail.com
     password: hrcrvkrrowwusfcz
 
