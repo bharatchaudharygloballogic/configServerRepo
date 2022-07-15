@@ -2,13 +2,8 @@ server:
   port: 8085
 
 spring:
-  data:
-    mongodb:
-      host: localhost
-      port: 27017
-      database: Email
   mail:
-    username: sportsarenaemailservice@gmail.com
+    id: sportsarenaemailservice@gmail.com
     password: hrcrvkrrowwusfcz
     
 
