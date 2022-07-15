@@ -10,13 +10,7 @@ spring:
   mail:
     username: sportsarenaemailservice@gmail.com
     password: hrcrvkrrowwusfcz
-    port: 465
-    host: smtp.gmail.com
-    properties.mail.smtp.auth: true
-    properties.mail.smtp.ssl.enable: true
     
-    
-
 
 
 eureka:
