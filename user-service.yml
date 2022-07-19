@@ -13,5 +13,7 @@ spring:
       database: players
       host: localhost
       port: 27017
+      auto-index-creation: true
   datasource: 
     driver-name: mongodb.jdbc.MongoDriver
+  
