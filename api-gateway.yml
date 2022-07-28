@@ -88,11 +88,11 @@ spring:
 
         #Route Mapping
         - id: product-webapp
-          uri: http://localhost:8083/
+          uri: http://localhost:3000/
           predicates:
-            - Path=/product/**
+            - Path=/**
           filters:
-            - RewritePath=/product(?<segment>/?.*), $\{segment}
+            - RewritePath=(?<segment>/?.*), $\{segment}
 
 
 
